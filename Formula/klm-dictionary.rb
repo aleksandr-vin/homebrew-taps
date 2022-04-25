@@ -1,8 +1,8 @@
 class KlmDictionary < Formula
   desc "Management CLI for KLM Dictionary"
   homepage "https://github.com/aleksandr-vin/klm-dictionary"
-  url "https://raw.githubusercontent.com/aleksandr-vin/klm-dictionary/master/bin/klm-dictionary"
-  version "1"
+  url "https://raw.githubusercontent.com/aleksandr-vin/klm-dictionary/master/bin/klm-dictionary", :using => :nounzip
+  version "2"
   sha256 "456a5527883cf207469ab68d20f6a686fc1cb12772831e536c39970a67c50465"
   license ""
 
