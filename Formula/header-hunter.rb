@@ -8,6 +8,7 @@ class HeaderHunter < Formula
   license "MIT"
 
   depends_on "python@3.10"
+  depends_on "python-tk"
 
   def install
     virtualenv_install_with_resources
